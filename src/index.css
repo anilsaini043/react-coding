@@ -1,0 +1,33 @@
+
+.accordion, .not-found{
+  width: 500px;
+  height: auto;
+  margin: 20px auto;
+  padding: 30px;
+  background-color:#E8E8E8;
+}
+
+.not-found{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.accordion-items{
+  margin: 20px;
+  border: 1px solid #B8B8B8;  
+}
+
+.accordion-title{
+  width: 100%;
+  padding: 20px;
+  background-color:#D0D0D0;
+  border: none;
+  font-size: 18px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.accordion-content{
+  padding: 15px;
+  background-color: #F5F5F5;
+}
