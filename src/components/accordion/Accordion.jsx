@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import "./accordion.css";
 import { HiChevronUp, HiChevronDown } from "react-icons/hi";
 
 const Accordion = ({items}) => {
