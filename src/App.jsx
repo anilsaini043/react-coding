@@ -1,10 +1,12 @@
+import FormInput from "../src/components/inputField/FormInput.jsx";
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1>Register component here</h1>
+      <div className="form-input">
+        <h1>Form Input with Success and Error Validation</h1>
+        <FormInput />
       </div>
     </>
   )
